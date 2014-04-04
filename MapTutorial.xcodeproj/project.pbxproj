@@ -21,6 +21,7 @@
 		0F45ABDC18ECAE4700DA7A04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F45ABBE18ECAE4700DA7A04 /* UIKit.framework */; };
 		0F45ABE418ECAE4700DA7A04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F45ABE218ECAE4700DA7A04 /* InfoPlist.strings */; };
 		0F45ABE618ECAE4700DA7A04 /* MapTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F45ABE518ECAE4700DA7A04 /* MapTutorialTests.m */; };
+		0F45ABF018ECAF8400DA7A04 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F45ABEF18ECAF8400DA7A04 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0F45ABE118ECAE4700DA7A04 /* MapTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		0F45ABE318ECAE4700DA7A04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0F45ABE518ECAE4700DA7A04 /* MapTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapTutorialTests.m; sourceTree = "<group>"; };
+		0F45ABEF18ECAF8400DA7A04 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F45ABF018ECAF8400DA7A04 /* MapKit.framework in Frameworks */,
 				0F45ABBD18ECAE4700DA7A04 /* CoreGraphics.framework in Frameworks */,
 				0F45ABBF18ECAE4700DA7A04 /* UIKit.framework in Frameworks */,
 				0F45ABBB18ECAE4700DA7A04 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		0F45ABB918ECAE4700DA7A04 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0F45ABEF18ECAF8400DA7A04 /* MapKit.framework */,
 				0F45ABBA18ECAE4700DA7A04 /* Foundation.framework */,
 				0F45ABBC18ECAE4700DA7A04 /* CoreGraphics.framework */,
 				0F45ABBE18ECAE4700DA7A04 /* UIKit.framework */,
